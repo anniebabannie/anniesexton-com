@@ -91,7 +91,7 @@ GEM
       concurrent-ruby (~> 1.0)
     jbuilder (2.11.2)
       activesupport (>= 5.0.0)
-    libv8 (8.4.255.0-x86_64-darwin-17)
+    libv8 (8.4.255.0)
     listen (3.5.1)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
@@ -249,7 +249,7 @@ DEPENDENCIES
   webpacker (~> 4.0)
 
 RUBY VERSION
-   ruby 2.5.0p0
+   ruby 2.7.3p183
 
 BUNDLED WITH
-   1.16.2
+   2.2.17
