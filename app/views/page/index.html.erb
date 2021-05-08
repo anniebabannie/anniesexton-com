@@ -1,3 +1,29 @@
-<h1 class="text-red-400">Page#index</h1>
-<p>Find me in app/views/page/index.html.erb</p>
-<%= react_component("HelloWorld", props: @hello_world_props, prerender: false) %>
+<div class="flex items-center text-center justify-center py-20" style="height: 70vh;">
+  <div>
+    <h1 class="font-serif text-8xl">Annie Sexton</h1>
+    <p class="text-blue-500 uppercase tracking-wider text-xl">Product Developer &nbsp;•&nbsp; Software Engineer</p>
+    <p class="mt-20 text-lg leading-8" style="max-width: 600px;">I’m a multi-faceted product developer that’s passionate about designing and developing great software on the web. </p>
+  </div>
+</div>
+
+<div class="flex flex-col items-center justify-center bg-gray-50 py-20">
+  <h2 class="font-serif text-4xl">About</h2>
+  <div class="flex my-20 mx-6 grid grid-cols-3" style="max-width: 1000px;">
+    <div>
+      <%= image_tag "avatar.jpg", size: "400" %>
+      <div class="text-center text-gray-400 mt-5">Pronouns: she/her</div>
+    </div>
+    <div class="col-span-2 px-7">
+      <p class="mb-9 leading-8 text-lg">In my ten years working as an engineer, I’ve fallen in love with every aspect of product development, from to programming, to strategy, to design. In my current role as a product analyst at Heroku, I perform customer research to identify common pain points and reduce load on support. I also design and build new tools to address these opportunities to improve customers' experience. While my roots are in programming, I’ve collected a wide breadth of skills across many areas of expertise, thanks to my endless curiosity and hunger for learning.</p>
+      <p class="leading-8 text-lg">Outside of work I love to travel, cook and write fiction. I was born and raised in the heart of Texas in Austin, and in 2018, after a considerable amount of globe-trotting, I decided to make a home for myself in the lush Pacific Northwest, in Portland, Oregon. </p>
+
+    </div>
+  </div>
+</div>
+<div class="flex items-center justify-center py-20">
+  <div class="flex justify-center uppercase">
+    <a class="text-blue-500" href="https://www.linkedin.com/in/annie-sexton-11472a46/" target="_blank">LinkedIn</a>
+    <div class="text-blue-500 mx-4">•</div>
+    <a class="text-blue-500" href="https://twitter.com/_anniebabannie_" target="_blank">Twitter</a>
+  </div>
+</div>

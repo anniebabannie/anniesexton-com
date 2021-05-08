@@ -58,3 +58,5 @@ gem "devise", "~> 4.7"
 gem "react_on_rails", "~> 12.2"
 
 gem "tailwindcss-rails", "~> 0.3.3"
+
+gem 'mini_racer', platforms: :ruby
